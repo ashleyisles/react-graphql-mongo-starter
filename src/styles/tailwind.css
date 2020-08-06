@@ -1,0 +1,18 @@
+/* Lines 3, 4 and 5 are used to generate your Tailwind CSS file (tailwind.css)  */
+/* The command to generate this is run on npm run dev automatically, but if you make a change to your tailwind.config.js and want to reflect that change without re-running your application, you can run the command in a separate terminal window: postcss src/styles/tailwind.css -o src/styles/index.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
